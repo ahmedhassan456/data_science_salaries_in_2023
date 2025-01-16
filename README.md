@@ -1,10 +1,24 @@
-# Data Science Salaries Analysis
+# Data Science Salaries Analysis and Prediction
 
 This project analyzes data science salaries across various roles, experience levels, and locations. The analysis is performed using a dataset containing salary information for data science-related jobs.
 
+
 ## Dataset
 
-The dataset used for analysis is located in the `data/` directory. It contains salary information for various data science roles.
+The dataset `data/ds_salaries.csv` contains the following columns:
+
+- `work_year`: The year the salary was paid.
+- `experience_level`: The experience level in the job role.
+- `employment_type`: The type of employment (e.g., full-time, part-time).
+- `job_title`: The job title.
+- `salary`: The salary amount.
+- `salary_currency`: The currency of the salary.
+- `salary_in_usd`: The salary amount in USD.
+- `employee_residence`: The country of residence of the employee.
+- `remote_ratio`: The ratio of remote work.
+- `company_location`: The location of the company.
+- `company_size`: The size of the company.
+
 
 ## Analysis
 
@@ -20,7 +34,7 @@ The analysis is performed in the Jupyter notebook `data_science_salaries_analysi
 
 - Python 3.8 or later
 
-Install Python using MiniConda
+**Install Python using MiniConda**
 1. Download and install MiniConda from 	[here](https://docs.anaconda.com/miniconda/)
 2. Create a new environment using the following command:
 ```sh
@@ -40,7 +54,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-To run the analysis, open the Jupyter notebook data_science_salaries_analysis.ipynb and execute the cells.
+To run the analysis, open the Jupyter notebook data_science_salaries.ipynb and execute the cells.
 
 ## License
 This project is licensed under the MIT License.
