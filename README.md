@@ -26,7 +26,8 @@ The analysis is performed in the Jupyter notebook `data_science_salaries_analysi
 
 1. Importing necessary libraries.
 2. Loading the dataset.
-3. Exploratory data analysis (EDA).
+3. Check of Data.
+4. Exploratory data analysis (EDA).
 
 ## Requirements
 
